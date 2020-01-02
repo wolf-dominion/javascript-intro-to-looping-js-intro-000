@@ -24,7 +24,7 @@ function whileLoop(number)
   return "done";
 }
 
-function doWhileLoop(num)
+function doWhileLoop(num) // was originally confused because I misunderstood the instructions,thought it was wanting me to substract an integer from i with each iteration, but it actually wanted me to write a code in which i was counting up to num
 {
   var i = 0;
   function incrementVariable() {
